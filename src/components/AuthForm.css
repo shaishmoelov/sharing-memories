@@ -1,0 +1,45 @@
+.auth-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light background for the form container */
+  }
+  
+  .form-title {
+    color: #2e7d32; /* Dark green color */
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    display: block;
+    color: #388e3c; /* Medium green color */
+    margin: 10px 0 5px;
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #388e3c; /* Medium green border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* Light green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
